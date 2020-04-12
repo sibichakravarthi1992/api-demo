@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="demofetchapi.js"></script>
+</head>
+<body onload="app.FetchAll()">
+    <style>
+        h1 {color:rgb(21, 139, 8);}
+            .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+            } 
+            
+             </style>
+          <h1>DEMO</h1>
+          <label>Id  : <input type="text" name="id" id="id" ></label>
+          <br></br>
+          <label>Name : <input type="text"  name="name" id="name"></label>
+          <br></br>
+          <label>Email Id :<input type="text"  name="emailId" id="emailId"></label>
+          <br></br>
+          <button class="button" type="submit" id="myBtn" onclick="app.saveAndUpdate()">Save</button>
+        
+          <p id="box" ></p>
+      </body>
+      </html>
